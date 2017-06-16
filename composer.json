@@ -1,0 +1,21 @@
+{
+    "name": "developerdad/t-d-d-examples",
+    "description": "Description of project TDDExamples.",
+    "authors": [
+        {
+            "name": "Elliot Rodriguez",
+            "email": "thedeveloperdad@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "4.4.0",
+        "phpunit/phpunit-skeleton-generator": "2.0.*",
+        "phing/phing":"2.*",
+        "pdepend/pdepend": "2.0.4"
+    },
+    
+    "autoload": {
+        "psr-4": { 
+            "thedeveloperdad\\" : "lib/" }
+    }
+}

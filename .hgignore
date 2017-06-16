@@ -1,0 +1,14 @@
+syntax: glob
+*.bak
+.project
+.buildpath
+.netbeans/*
+.user.ini
+*.swp
+*~
+phpdoc/*
+*.swo
+*.ba[dk]
+nbproject/*
+vendor/**
+*.orig

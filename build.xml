@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="TDDExamples" default="build">
+    <target name="prepare">
+        <echo msg="CREATING BUILD DIRECTORY AT ./build" />
+        <mkdir dir="./build" />
+        <echo msg="BUILD DIRECTORY CREATED SUCCESSFULLY." />
+    </target>
+    
+    <target name="build" depends="prepare">
+        <echo msg="Beginning file copy" />
+        <copy todir="./build">
+            <fileset dir="lib"/>
+        </copy>
+    </target>
+</project>
